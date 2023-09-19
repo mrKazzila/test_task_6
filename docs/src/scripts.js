@@ -28,8 +28,16 @@ function calculate() {
     console.log('tileY', tileY)
 
     var mapUrl = `https://core-carparks-renderer-lots.maps.yandex.net/maps-rdr-carparks/tiles?version=2&l=carparks&lang=ru_RU&x=${tileX}&y=${tileY}&z=${zoom}`;
-    console.log('mapUrl', mapUrl)
+    console.log('mapUrl', mapUrl);
 
-    document.getElementById("map").innerHTML = `<img src="${mapUrl}" alt="Плитка карты" width="256" height="256">`;
+    var img = new Image();
+    img.src = mapUrl;
+    img.onload = function() {
+        document.getElementById("map").innerHTML = `<img src="${mapUrl}" alt="Плитка карты" width="256" height="256">`;
+    };
+    img.onerror = function() {
+        document.getElementById("map").innerHTML = "";
+        document.getElementById("coordinates").innerText = `Не удалось загрузить картинку. X: ${tileX}, Y: ${tileY}`;
+    };
     document.getElementById("coordinates").innerText = `X: ${tileX}, Y: ${tileY}`;
 }
