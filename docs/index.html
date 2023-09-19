@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Расчет плитки карты</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <label>
+            Широта:
+            <input type="text" id="latitude" />
+        </label>
+        <label>
+            Долгота:
+            <input type="text" id="longitude" />
+        </label>
+        <label>
+            Зум:
+            <input type="number" id="zoom" min="1" max="19" />
+        </label>
+        <button onclick="calculate()">Рассчитать</button>
+    </div>
+
+    <div class="coordinates-container" id="coordinates"></div>
+    <div class="image-container" id="map"></div>
+
+    <script src="src/scripts.js"></script>
+</body>
+</html>
