@@ -11,7 +11,7 @@ body {
     text-align: left;
     margin-bottom: 20px;
     position: absolute;
-    top: calc(30% - 160px);
+    top: calc(30% - 180px);
     left: 50%;
     transform: translateX(-50%);
 }
