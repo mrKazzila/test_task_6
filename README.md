@@ -18,15 +18,17 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="https://mrkazzila.github.io/test_task_4/">GitHub Pages</a>
+  <a href="https://mrkazzila.github.io/test_task_parking_lots/">GitHub Pages</a>
 </p>
 
 
 ## Features
+
 * Service for calculating and displaying map tiles with parking lots in yandex maps.
+
 
 ## How To Use
 
-1. Open [GitHub Pages](https://mrkazzila.github.io/test_task_4/) with project
+1. Open [GitHub Pages](https://mrkazzila.github.io/test_task_parking_lots/) with project
 2. Input latitude, longitude and zoom information
 3. Click button 'Рассчитать'
