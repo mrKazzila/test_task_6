@@ -18,7 +18,7 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="https://mrkazzila.github.io/test_task_parking_lots/">GitHub Pages</a>
+  <a href="https://mrkazzila.github.io/test_task_6/">GitHub Pages</a>
 </p>
 
 
@@ -29,6 +29,6 @@
 
 ## How To Use
 
-1. Open [GitHub Pages](https://mrkazzila.github.io/test_task_parking_lots/) with project
+1. Open [GitHub Pages](https://mrkazzila.github.io/test_task_6/) with project
 2. Input latitude, longitude and zoom information
 3. Click button 'Рассчитать'
